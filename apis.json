@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - NetLicensing",
+	"description": "This is a repository of netlicensing APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/netlicensing.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://netlicensing.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "NetLicensing",
+			"x-api-slug": "netlicensing",
+			"description": "Labs64 NetLicensing is a first-class solution in the Licensing-as-a-Service (LaaS) sector. Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors and developers who want to concentrate on their product&rsquo;s core functionality instead of spending resources on developing an own license management software.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28466-labs64-net-licensing-restful-api-test-center.jpg",
+			"humanURL": "http://netlicensing.io",
+			"baseURL": "https://go.netlicensing.io//core/v2/rest",
+			"tags": "NetLicensing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/netlicensing/master/_listings/netlicensing/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "NetLicensing",
+	"include": [
+		{
+			"name": "NetLicensing",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/netlicensing/master/_listings/netlicensing/apis.yaml"
+		}
+	]
+}

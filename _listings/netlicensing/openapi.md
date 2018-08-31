@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: NetLicensing
 x-complete: 1
@@ -364,7 +363,7 @@ paths:
         description: Mandatory for FLOATING license type
       - in: formData
         name: name
-        description: license template name to reate license template object
+        description: license template name to ?reate license template object
       - in: formData
         name: number
         description: lUnique number (across all products of a vendor) that identifies
@@ -374,7 +373,7 @@ paths:
         description: price for the license
       - in: formData
         name: productModuleNumber
-        description: Number of product module to reate license template object
+        description: Number of product module to ?reate license template object
       - in: formData
         name: timeVolume
         description: Mandatory for TIMEVOLUME license type
@@ -973,4 +972,3 @@ paths:
       tags:
       - Utility
       - LicensingModels
----
